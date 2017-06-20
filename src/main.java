@@ -6,7 +6,8 @@ public class main {
 		// TODO Auto-generated method stub
 		MoteurCube mc = new MoteurCube();
 		Cube c = mc.generateCube();
-		c.afficher();
+		mc.scrambleCube(c);
+		//c.afficher();
 		
 	}
 

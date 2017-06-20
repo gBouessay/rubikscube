@@ -7,6 +7,7 @@ public class Face {
 	protected ArrayList<Case> top_ligne;
 	protected ArrayList<Case> center_ligne;
 	protected ArrayList<Case> bottom_ligne;
+	
 	public ArrayList<Case> getLeft_ligne() {
 		return top_ligne;
 	}
@@ -31,6 +32,10 @@ public class Face {
 		this.center_ligne = center_ligne;
 		this.bottom_ligne = right_ligne;
 	}
+	public Face() {
+		// TODO Auto-generated constructor stub
+	}
+	
 	public void afficher(){
 		System.out.println("");
 		for(Case c : this.top_ligne){

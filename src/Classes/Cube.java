@@ -8,6 +8,7 @@ public class Cube {
 	protected Face back_face;
 	protected Face top_face;
 	protected Face bottom_face;
+	
 	public Face getFront_face() {
 		return front_face;
 	}
@@ -53,6 +54,7 @@ public class Cube {
 		this.top_face = top_face;
 		this.bottom_face = bottom_face;
 	}
+	
 	public void afficher(){
 		this.front_face.afficher();
 		this.left_face.afficher();
